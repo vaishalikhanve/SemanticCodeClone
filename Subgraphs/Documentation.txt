@@ -1,0 +1,16 @@
+Requirements for running code:
+1. Progex and Java Run Enviroment
+2. json viewer
+3. python3.6 with json and io libraries
+
+Technology Decision
+1. Choosing Progex instead of soot as it is easy to use and moreover gives both data dependece graph and flow depedence
+2. Using our own dictionary for transition symbols.
+3. Writing our own code for finding subgraphs
+4. Converting subgraphs to NFA table for generating regular expression instead of generating vector from them.
+5. Converting the code into regular expression
+
+
+Use cases:
+1. Finding semantically similar code snippet.
+2. Finding best code one among the two semantically similar codes.
